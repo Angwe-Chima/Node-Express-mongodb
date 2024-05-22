@@ -1,0 +1,62 @@
+[
+  {
+    "name": "The Matrix",
+    "description": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+    "duration": 136,
+    "ratings": 8.7,
+    "totalRatings": 1700000,
+    "releaseYear": 1999,
+    "releaseDate": "1999-03-31T00:00:00Z",
+    "createAt": "2024-05-22T12:00:00Z",
+    "genres": ["Action", "Sci-Fi"],
+    "directors": ["Lana Wachowski", "Lilly Wachowski"],
+    "coverImage": "https://example.com/the-matrix.jpg",
+    "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+    "price": 12.99
+  },
+  {
+    "name": "The Godfather",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "duration": 175,
+    "ratings": 9.2,
+    "totalRatings": 1600000,
+    "releaseYear": 1972,
+    "releaseDate": "1972-03-24T00:00:00Z",
+    "createAt": "2024-05-22T12:00:00Z",
+    "genres": ["Crime", "Drama"],
+    "directors": ["Francis Ford Coppola"],
+    "coverImage": "https://example.com/the-godfather.jpg",
+    "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "price": 15.99
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "duration": 142,
+    "ratings": 9.3,
+    "totalRatings": 2200000,
+    "releaseYear": 1994,
+    "releaseDate": "1994-09-23T00:00:00Z",
+    "createAt": "2024-05-22T12:00:00Z",
+    "genres": ["Drama"],
+    "directors": ["Frank Darabont"],
+    "coverImage": "https://example.com/the-shawshank-redemption.jpg",
+    "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+    "price": 13.99
+  },
+  {
+    "name": "Interstellar",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "duration": 169,
+    "ratings": 8.6,
+    "totalRatings": 1500000,
+    "releaseYear": 2014,
+    "releaseDate": "2014-11-07T00:00:00Z",
+    "createAt": "2024-05-22T12:00:00Z",
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "directors": ["Christopher Nolan"],
+    "coverImage": "https://example.com/interstellar.jpg",
+    "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "price": 14.99
+  }
+]

@@ -1,0 +1,27 @@
+html{
+  padding: 4em;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-color: lightgray;
+  font-family: sans-serif;
+  padding: 1em;
+  box-shadow: 2px 2px 5px 2px gray;
+}
+
+h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  padding: 0em 10em;
+}
