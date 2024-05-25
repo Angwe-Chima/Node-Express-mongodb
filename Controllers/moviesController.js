@@ -10,7 +10,22 @@ const handleError = (err, res) => {
 
 exports.getAllMovies = async (req, res) => {
   try {
-    const movies = await Movie.find();
+    const excludeFields = ['sort', 'page', 'limit', 'feilds'];
+    const queryObj = {...req.query}
+
+    excludeFields.forEach((element)=>{
+      delete queryObj[element];
+    });
+
+    const movies = await Movie.find(queryObj);
+    // const movies = await Movie.find()
+    //               .where('duration')
+    //               .equals(req.query.duration)
+    //               .where('ratings')
+    //               .equals(req.query.ratings)
+    //
+    // console.log(queryObj, req.query);
+
     res.status(200).json({
       status: "sucess",
       length: movies.length,

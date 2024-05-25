@@ -11,13 +11,13 @@ if(process.env.NODE_ENV === 'developement'){
   app.use(morgan('dev'))
 }
 
-// custom middleware  
-const logger = (req, res, next)=>{
-  console.log('Custom middleware called');
-  next()
-}
+// // custom middleware  
+// const logger = (req, res, next)=>{
+//   console.log('Custom middleware called');
+//   next()
+// }
 
-app.use(logger);
+// app.use(logger);
 
 // Route-Specific Middleware (applied only to movie routes)
 app.use('/api/v1/movies', movieRouter)
